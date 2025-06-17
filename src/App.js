@@ -22,6 +22,7 @@ function App() {
       getAccessToken(code);
     }
   }, [isLoggedIn]);
+  console.log("working");
 
   async function getAccessToken(code) {
     try {
